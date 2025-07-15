@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚚 Delivery
 
-## Getting Started
+Nowoczesna aplikacja do zarządzania dostawami zbudowana w Next.js 15 z
+wykorzystaniem najnowszych technologii webowych.
 
-First, run the development server:
+## ✨ Funkcjonalności
+
+- 🎯 **Nowoczesny interfejs** - Responsywny design z Tailwind CSS
+- ⚡ **Wysoka wydajność** - Next.js 15 z Turbopack
+- 🔧 **TypeScript** - Pełne wsparcie dla TypeScript
+- 🎨 **Stylowanie** - Tailwind CSS 4 z customową konfiguracją
+- 📱 **Responsywność** - Optymalizacja dla wszystkich urządzeń
+- 🔍 **Linting** - ESLint z konfiguracją Next.js
+
+## 🛠️ Stack technologiczny
+
+- **Framework**: Next.js 15.4.1
+- **Język**: TypeScript 5
+- **Stylowanie**: Tailwind CSS 4
+- **Runtime**: React 19.1.0
+- **Narzędzia**: ESLint, Turbopack
+
+## 🚀 Szybki start
+
+### Wymagania
+
+- Node.js 18.0 lub nowszy
+- npm, yarn, pnpm lub bun
+
+### Instalacja
+
+1. **Klonuj repozytorium**
+
+```bash
+git clone [URL-repo]
+cd delivery
+```
+
+2. **Zainstaluj zależności**
+
+```bash
+npm install
+```
+
+3. **Uruchom serwer deweloperski**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Otwórz w przeglądarce** Przejdź do
+   [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Dostępne skrypty
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Uruchom serwer deweloperski z Turbopack
+npm run dev
 
-## Learn More
+# Zbuduj aplikację do produkcji
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+# Uruchom serwer produkcyjny
+npm run start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Uruchom linter
+npm run lint
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Struktura projektu
 
-## Deploy on Vercel
+```
+delivery/
+├── app/                    # App Router (Next.js 13+)
+│   ├── favicon.ico        # Favicon
+│   ├── globals.css        # Globalne style
+│   ├── layout.tsx         # Główny layout
+│   └── page.tsx           # Strona główna
+├── public/                # Statyczne zasoby
+├── eslint.config.mjs      # Konfiguracja ESLint
+├── next.config.ts         # Konfiguracja Next.js
+├── package.json           # Zależności i skrypty
+├── postcss.config.mjs     # Konfiguracja PostCSS
+├── tailwind.config.ts     # Konfiguracja Tailwind CSS
+└── tsconfig.json          # Konfiguracja TypeScript
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Stylowanie
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projekt wykorzystuje **Tailwind CSS 4** do stylowania komponentów. Konfiguracja
+znajduje się w pliku `tailwind.config.ts`.
+
+### Główne funkcje stylowania:
+
+- Responsywny design
+- Customowe kolory i komponenty
+- Optymalizacja rozmiaru bundle'a
+- Dark mode support (do dodania)
+
+## 🔧 Konfiguracja
+
+### TypeScript
+
+Projekt jest w pełni skonfigurowany z TypeScript z strict mode włączonym.
+
+### ESLint
+
+Wykorzystuje konfigurację `eslint-config-next` z dodatkowymi regułami.
+
+### Next.js
+
+Konfiguracja w `next.config.ts` - gotowa do rozszerzenia o dodatkowe opcje.
+
+## 🚀 Deployment
+
+### Vercel (Rekomendowane)
+
+```bash
+# Zainstaluj Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+```
+
+### Inne platformy
+
+```bash
+# Zbuduj aplikację
+npm run build
+
+# Uruchom serwer produkcyjny
+npm run start
+```
+
+## 📚 Przydatne linki
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs)
+- [React Documentation](https://react.dev)
+
+## 📄 Licencja
+
+Ten projekt jest prywatny i nie posiada otwartej licencji.
+
+## 👨‍💻 Autor
+
+**Adamski83** - _Initial work_
+
+---
+
+⭐ Jeśli projekt Ci się podoba, zostaw gwiazdkę!
