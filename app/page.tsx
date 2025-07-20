@@ -1,14 +1,15 @@
+import Container from "@/components/container/Container";
+
 const Home = () => {
   return (
-    <div>
-      <h2>Home</h2>
+    <Container>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint,
-        blanditiis. Aut exercitationem corporis iure architecto possimus
-        veritatis repellat debitis, autem, recusandae culpa dignissimos.
-        Architecto, aliquam expedita ipsum eum debitis voluptas.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic porro nemo
+        quidem. Esse illum ab nam. Recusandae id quidem consequuntur et
+        reprehenderit nesciunt ipsa. Provident optio repellat nam inventore
+        ipsam.
       </p>
-    </div>
+    </Container>
   );
 };
 

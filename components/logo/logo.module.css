@@ -1,0 +1,14 @@
+.logo {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-darkColor, #151515);
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--color-shop_light_green, #3b9c3c);
+  transition: color 0.3s ease;
+}

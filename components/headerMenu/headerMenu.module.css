@@ -1,0 +1,36 @@
+.hMenu {
+  display: none;
+  width: 33.333333%;
+  align-items: center;
+  gap: 1.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-lightColor, #6b7280);
+}
+
+@media (min-width: 768px) {
+  .hMenu {
+    display: inline-flex;
+  }
+}
+
+.headerLink {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid var(--color-shop_light_green, #3b9c3c);
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+.headerLink:hover {
+  color: var(--color-shop_light_green, #3b9c3c);
+  border-bottom: 2px solid var(--color-shop_light_green, #3b9c3c);
+}
+
+.headerLinkActive {
+  color: var(--color-shop_light_green, #3b9c3c);
+  border-bottom: 2px solid var(--color-shop_light_green, #3b9c3c);
+}
