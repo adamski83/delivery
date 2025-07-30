@@ -11,12 +11,12 @@ const HeaderMenu = () => {
   const pathname = usePathname();
 
   return (
-    <div className={styles.hMenu}>
+    <div className={styles["header-menu"]}>
       {headerData?.map(item => (
         <Link
           key={item.title}
           href={item?.href}
-          className={`${pathname === item?.href ? styles.headerLinkActive : styles.headerLinkInactive} ${styles.headerLink}`}
+          className={`${pathname === item?.href ? styles["header-link-active"] : styles["header-link"]} ${styles["header-link"]}`}
         >
           {item?.title}
         </Link>

@@ -2,12 +2,14 @@ import { Store } from "lucide-react";
 import React from "react";
 import styles from "./cartIcon.module.css";
 import Link from "next/link";
+import { PATHS } from "@/constants";
+
 const CartIcon = () => {
   return (
     <div className={styles.relative}>
-      <Link href="/cart" className={styles.icon}>
-        <Store className={styles.icon} />
-        <span className={styles.orderNumber}>10</span>
+      <Link href={PATHS.BASKET.href}>
+        <Store />
+        <span className={styles["order-number"]}>10</span>
       </Link>
     </div>
   );

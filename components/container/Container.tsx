@@ -1,15 +1,35 @@
-import { cn } from "@/lib/utils";
+"use client";
+
+import {
+  Container as MUIContainer,
+  ContainerProps as MUIContainerProps,
+} from "@mui/material";
+import { styled } from "@mui/material/styles";
 import React from "react";
 
-import styles from "./container.module.css";
+const StyledContainer = styled(MUIContainer)(({ theme }) => ({
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+  paddingLeft: "16px",
+  paddingRight: "16px",
+  [theme.breakpoints.up("sm")]: {
+    paddingLeft: "16px",
+    paddingRight: "16px",
+  },
+}));
 
-interface ContainerProps {
+interface ContainerProps extends Omit<MUIContainerProps, "maxWidth"> {
   children: React.ReactNode;
-  className?: string;
+  maxWidth?: MUIContainerProps["maxWidth"];
 }
 
-const Container = ({ children, className }: ContainerProps) => {
-  return <div className={cn(styles.container, className)}>{children}</div>;
+const Container = ({ children, maxWidth = "xl", ...props }: ContainerProps) => {
+  return (
+    <StyledContainer maxWidth={maxWidth} {...props}>
+      {children}
+    </StyledContainer>
+  );
 };
 
 export default Container;

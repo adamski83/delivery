@@ -1,9 +1,9 @@
-.searchIcon {
-  height: 1.25rem;
-  width: 1.25rem;
+.search-icon {
+  height: 20px;
+  width: 20px;
 }
 
-.searchIcon:hover {
+.search-icon:hover {
   scale: 1.5;
   transition: scale 0.3s ease;
   color: var(--color-shop_light_green, #3b9c3c);
