@@ -1,0 +1,14 @@
+.icon {
+  color: var(--color-darkColor, #151515);
+}
+
+.icon:hover {
+  color: var(--color-shop_light_green, #3b9c3c);
+  transition: color 0.3s ease;
+}
+
+.sideMenu-hidden {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

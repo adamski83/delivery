@@ -1,0 +1,22 @@
+.social-media {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-media a {
+  color: #fff;
+  border: 1px white solid;
+  padding: 8px;
+  border-radius: 50%;
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: var(--color-shop_light_green, #3b9c3c);
+}

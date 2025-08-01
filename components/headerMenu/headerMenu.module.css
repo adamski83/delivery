@@ -1,0 +1,36 @@
+.header-menu {
+  display: none;
+  width: 33.333333%;
+  align-items: center;
+  gap: 28px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-lightColor, #6b7280);
+}
+
+@media (min-width: 768px) {
+  .header-menu {
+    display: inline-flex;
+  }
+}
+
+.header-link {
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 0;
+  border-bottom: 2px solid var(--color-shop_light_green, #3b9c3c);
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+.header-link:hover {
+  color: var(--color-shop_light_green, #3b9c3c);
+  border-bottom: 2px solid var(--color-shop_light_green, #3b9c3c);
+}
+
+.header-link-active {
+  color: var(--color-shop_light_green, #3b9c3c);
+  border-bottom: 2px solid var(--color-shop_light_green, #3b9c3c);
+}

@@ -1,0 +1,23 @@
+.header {
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: #000 solid 1px;
+}
+
+.header-container {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.mobile-logo {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .mobile-logo {
+    display: none;
+  }
+}
