@@ -1,6 +1,5 @@
 import { ClerkLoaded, SignedIn, UserButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
-import { log } from "console";
 
 import CartIcon from "../cartIcon/CartIcon";
 import Container from "../container/Container";
@@ -14,7 +13,7 @@ import styles from "./header.module.css";
 
 const Header = async () => {
   const user = await currentUser();
-  log("Current User:", user);
+
   return (
     <header className={styles.header}>
       <Container>
