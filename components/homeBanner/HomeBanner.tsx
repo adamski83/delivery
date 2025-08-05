@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 import { Title } from "../text/text";
-import styles from "./homeBanner.module.css";
+import styles from "./HomeBanner.module.css";
 
 const HomeBanner = () => {
   return (

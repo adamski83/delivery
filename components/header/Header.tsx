@@ -1,12 +1,12 @@
-import CartIcon from "../cartIcon/CartIcon";
-import Container from "../container/Container";
-import FavouriteButton from "../favouriteButton/FavouriteButton";
-import HeaderMenu from "../headerMenu/HeaderMenu";
-import Logo from "../logo/Logo";
-import MobileMenu from "../mobileMenu/MobileMenu";
-import SearchBar from "../searchBar/SearchBar";
-import SignIn from "../signIn/SignIn";
-import styles from "./header.module.css";
+import CartIcon from "../CartIcon/CartIcon";
+import Container from "../Container/Container";
+import FavouriteButton from "../FavouriteButton/FavouriteButton";
+import HeaderMenu from "../HeaderMenu/HeaderMenu";
+import Logo from "../Logo/Logo";
+import MobileMenu from "../MobileMenu/MobileMenu";
+import SearchBar from "../SearchBar/SearchBar";
+import SignIn from "../SignIn/SignIn";
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (

@@ -2,8 +2,8 @@
 import { AlignLeft } from "lucide-react";
 import React from "react";
 
-import SideMenu from "../sideMenu/SideMenu";
-import styles from "./mobileMenu.module.css";
+import SideMenu from "../SideMenu/SideMenu";
+import styles from "./MobileMenu.module.css";
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = React.useState(false);

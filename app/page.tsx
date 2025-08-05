@@ -1,5 +1,5 @@
-import Container from "@/components/container/Container";
-import HomeBanner from "@/components/homeBanner/HomeBanner";
+import Container from "@/components/Container/Container";
+import HomeBanner from "@/components/HomeBanner/HomeBanner";
 
 const Home = () => {
   return (
