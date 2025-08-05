@@ -1,14 +1,10 @@
 import Container from "@/components/container/Container";
+import HomeBanner from "@/components/homeBanner/HomeBanner";
 
 const Home = () => {
   return (
     <Container>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic porro nemo
-        quidem. Esse illum ab nam. Recusandae id quidem consequuntur et
-        reprehenderit nesciunt ipsa. Provident optio repellat nam inventore
-        ipsam.
-      </p>
+      <HomeBanner />
     </Container>
   );
 };

@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: var(--color-shop_light_pink, #fce7f3);
+}

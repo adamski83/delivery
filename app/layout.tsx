@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 
 import type { Metadata } from "next";
 import "./globals.css";
+import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
   title: "Delivery",
@@ -19,9 +20,11 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-poppins antialiased">
         <ThemeProvider>
-          <Header />
-          <main>{children}</main>
-          <Footer />
+          <div className={styles.wrapper}>
+            <Header />
+            <main className={styles.main}>{children}</main>
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>
