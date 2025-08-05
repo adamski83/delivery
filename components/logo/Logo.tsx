@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
-import styles from "./logo.module.css";
+import styles from "./Logo.module.css";
 
 interface LogoProps {
   className?: string;

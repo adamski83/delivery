@@ -4,9 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FC } from "react";
 
-import Logo from "../logo/Logo";
-import SocialMedia from "../socialMedia/SocialMedia";
-import styles from "./sideMenu.module.css";
+import Logo from "../Logo/Logo";
+import SocialMedia from "../SocialMedia/SocialMedia";
+import styles from "./SideMenu.module.css";
 
 interface SideMenuProps {
   isOpen: boolean;

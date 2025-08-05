@@ -1,14 +1,19 @@
-import CartIcon from "../cartIcon/CartIcon";
-import Container from "../container/Container";
-import FavouriteButton from "../favouriteButton/FavouriteButton";
-import HeaderMenu from "../headerMenu/HeaderMenu";
-import Logo from "../logo/Logo";
-import MobileMenu from "../mobileMenu/MobileMenu";
-import SearchBar from "../searchBar/SearchBar";
-import SignIn from "../signIn/SignIn";
-import styles from "./header.module.css";
+import { ClerkLoaded, SignedIn, UserButton } from "@clerk/nextjs";
+import { currentUser } from "@clerk/nextjs/server";
 
-const Header = () => {
+import CartIcon from "../CartIcon/CartIcon";
+import Container from "../Container/Container";
+import FavouriteButton from "../FavouriteButton/FavouriteButton";
+import HeaderMenu from "../HeaderMenu/HeaderMenu";
+import Logo from "../Logo/Logo";
+import MobileMenu from "../MobileMenu/MobileMenu";
+import SearchBar from "../SearchBar/SearchBar";
+import SignIn from "../SignIn/SignIn";
+import styles from "./Header.module.css";
+
+const Header = async () => {
+  const loggedUser = await currentUser();
+
   return (
     <header className={styles.header}>
       <Container>
@@ -21,7 +26,12 @@ const Header = () => {
           <SearchBar />
           <CartIcon />
           <FavouriteButton />
-          <SignIn />
+          <ClerkLoaded>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+            {!loggedUser && <SignIn />}
+          </ClerkLoaded>
         </div>
       </Container>
     </header>

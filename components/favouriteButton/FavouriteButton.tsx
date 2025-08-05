@@ -1,6 +1,6 @@
 import { Star } from "lucide-react";
 import React from "react";
-import styles from "./favouriteButton.module.css";
+import styles from "./FavouriteButton.module.css";
 
 const FavouriteButton = () => {
   return (
