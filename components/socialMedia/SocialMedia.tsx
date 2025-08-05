@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./socialMedia.module.css";
+import styles from "./SocialMedia.module.css";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import Link from "next/link";
 

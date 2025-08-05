@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";
 
-import styles from "./headerMenu.module.css";
+import styles from "./HeaderMenu.module.css";
 
 const HeaderMenu = () => {
   const pathname = usePathname();
