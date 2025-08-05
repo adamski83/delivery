@@ -2,7 +2,7 @@ import { SignInButton } from "@clerk/nextjs";
 import { LogInIcon } from "lucide-react";
 import React from "react";
 
-import styles from "./signIn.module.css";
+import styles from "./SignIn.module.css";
 
 const SignIn = () => {
   return (

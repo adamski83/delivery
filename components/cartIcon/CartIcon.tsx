@@ -1,6 +1,6 @@
 import { Store } from "lucide-react";
 import React from "react";
-import styles from "./cartIcon.module.css";
+import styles from "./CartIcon.module.css";
 import Link from "next/link";
 import { PATHS } from "@/constants";
 
