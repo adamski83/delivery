@@ -6,7 +6,44 @@
   border-radius: 8px;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   background-color: var(--color-shop_light_pink, #fce7f3);
+}
+
+.button {
+  background-color: var(--color-shop_dark_green, #063c28);
+  font-weight: 600;
+  width: 110px;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--color-shop_dark_green, #063c28);
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  display: none;
+  width: 384px;
+}
+
+@media (min-width: 768px) {
+  .image {
+    display: inline-flex;
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  margin: 24px 0;
 }
