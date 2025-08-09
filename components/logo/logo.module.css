@@ -4,12 +4,12 @@
   font-weight: 900;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--color-darkColor, #151515);
+  color: var(--color-darkColor);
   text-decoration: none;
 }
 
 .logo:hover {
-  color: var(--color-shop_light_green, #3b9c3c);
+  color: var(--color-shop-light-green);
   transition: color 0.3s ease;
 }
 
@@ -24,6 +24,6 @@
 }
 
 .logo-white:hover {
-  color: var(--color-shop_light_green, #3b9c3c);
+  color: var(--color-shop-light-green);
   transition: color 0.3s ease;
 }

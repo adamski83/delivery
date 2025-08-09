@@ -4,15 +4,12 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 8px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  background-color: var(--color-shop_light_pink, #fce7f3);
+  padding: 24px 40px;
+  background-color: var(--color-shop-light-pink);
 }
 
 .button {
-  background-color: var(--color-shop_dark_green, #063c28);
+  background-color: var(--color-shop-dark-green);
   font-weight: 600;
   width: 110px;
   border-radius: 6px;
@@ -26,7 +23,7 @@
 }
 
 .button:hover {
-  background-color: var(--color-shop_dark_green, #063c28);
+  background-color: var(--color-shop-dark-green);
   color: rgb(255, 255, 255);
 }
 

@@ -6,6 +6,6 @@
 .search-icon:hover {
   scale: 1.5;
   transition: scale 0.3s ease;
-  color: var(--color-shop_light_green, #3b9c3c);
+  color: var(--color-shop-light-green);
   cursor: pointer;
 }

@@ -3,5 +3,5 @@
   font-weight: 700;
   height: 32px;
   line-height: 1.5;
-  color: var(--color-shop_btn_dark_greentext, #063c28);
+  color: var(--color-shop-btn-dark-greentext);
 }

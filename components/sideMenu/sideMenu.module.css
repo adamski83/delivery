@@ -43,7 +43,7 @@
   font-size: 24px;
 }
 .logo-close:hover {
-  color: var(--color-shop_light_green, #3b9c3c);
+  color: var(--color-shop-light-green);
   transition: color 0.3s ease;
 }
 
@@ -54,10 +54,10 @@
 }
 
 .side-menu-links a:hover {
-  color: var(--color-shop_light_green, #3b9c3c);
+  color: var(--color-shop-light-green);
   transition: color 0.3s ease;
 }
 
 .side-menu-links-active {
-  color: var(--color-shop_light_green, #3b9c3c);
+  color: var(--color-shop-light-green);
 }
