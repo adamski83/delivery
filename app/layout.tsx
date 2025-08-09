@@ -17,16 +17,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="font-poppins antialiased">
-        <ThemeProvider>
-          <div className={styles.wrapper}>
+
+    <ClerkProvider>
+      <html lang="en">
+        <body className="font-poppins antialiased">
+          <ThemeProvider>
             <Header />
-            <main className={styles.main}>{children}</main>
+            <main>{children}</main>
             <Footer />
-          </div>
-        </ThemeProvider>
-      </body>
-    </html>
+          </ThemeProvider>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
