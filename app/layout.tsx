@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import type { Metadata } from "next";
 import "./globals.css";
 import styles from "./layout.module.css";
+import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
   title: "Delivery",
@@ -17,13 +18,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-
     <ClerkProvider>
       <html lang="en">
         <body className="font-poppins antialiased">
           <ThemeProvider>
             <Header />
-            <main>{children}</main>
+            <main className={styles.main}>{children}</main>
             <Footer />
           </ThemeProvider>
         </body>
