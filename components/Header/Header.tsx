@@ -1,6 +1,5 @@
 import { ClerkLoaded, SignedIn, UserButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
-
 import CartIcon from "../CartIcon/CartIcon";
 import Container from "../Container/Container";
 import FavouriteButton from "../FavouriteButton/FavouriteButton";
