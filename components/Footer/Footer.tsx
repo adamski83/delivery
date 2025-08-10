@@ -7,8 +7,7 @@ const Footer = () => {
       <Container>
         <FooterTop />
       </Container>
-    </footer>
-  );
-};
+      )
+      };
 
 export default Footer;

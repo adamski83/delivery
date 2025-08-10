@@ -1,4 +1,3 @@
-
 import { ClerkLoaded, SignedIn, UserButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
 import CartIcon from "../CartIcon/CartIcon";
