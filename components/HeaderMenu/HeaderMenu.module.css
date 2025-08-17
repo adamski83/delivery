@@ -7,7 +7,7 @@
   line-height: 20px;
   font-weight: 600;
   text-transform: capitalize;
-  color: var(--color-lightColor, #6b7280);
+  color: var(--color-lightColor);
 }
 
 @media (min-width: 768px) {
@@ -20,17 +20,17 @@
   text-decoration: none;
   color: inherit;
   padding: 8px 0;
-  border-bottom: 2px solid var(--color-shop_light_green, #3b9c3c);
+  border-bottom: 2px solid var(--color-shop-light-green);
   transition: all 0.3s ease-in-out;
   border-bottom: 2px solid transparent;
 }
 
 .header-link:hover {
-  color: var(--color-shop_light_green, #3b9c3c);
-  border-bottom: 2px solid var(--color-shop_light_green, #3b9c3c);
+  color: var(--color-shop-light-green);
+  border-bottom: 2px solid var(--color-shop-light-green);
 }
 
 .header-link-active {
-  color: var(--color-shop_light_green, #3b9c3c);
-  border-bottom: 2px solid var(--color-shop_light_green, #3b9c3c);
+  color: var(--color-shop-light-green);
+  border-bottom: 2px solid var(--color-shop-light-green);
 }
