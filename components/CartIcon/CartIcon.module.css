@@ -15,5 +15,5 @@
   line-height: 16px;
   font-weight: 600;
   color: rgb(255, 255, 255);
-  background-color: var(--color-shop_dark_green, #063c28);
+  background-color: var(--color-shop-dark-green);
 }

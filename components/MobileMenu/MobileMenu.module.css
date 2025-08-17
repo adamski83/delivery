@@ -1,9 +1,9 @@
 .icon {
-  color: var(--color-darkColor, #151515);
+  color: var(--color-darkColor);
 }
 
 .icon:hover {
-  color: var(--color-shop_light_green, #3b9c3c);
+  color: var(--color-shop-light-green);
   transition: color 0.3s ease;
 }
 
